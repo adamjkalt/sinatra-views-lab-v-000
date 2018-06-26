@@ -1,13 +1,13 @@
 class App < Sinatra::Base
 
-	get '/hello.erb' do
+	get '/hello' do
 		erb :hello
 	end
 
-  get '/date.erb' do
+  get '/date' do
     erb :date
   end
-  get '/goodbye.erb' do
+  get '/goodbye' do
 		erb :goodbye
 	end
 
